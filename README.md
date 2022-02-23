@@ -3,7 +3,7 @@
 ## Flux installation
 
 Fluxcd documentation : 
- * [https://fluxcd.io/docs/installation/](fluxcd get installation)
+ * https://fluxcd.io/docs/installation/
 
 Create Github Token with 'repo' and 'admin' right
 ```bash
