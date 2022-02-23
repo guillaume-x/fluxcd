@@ -28,7 +28,9 @@ flux check --pre
 ssh-keygen -t rsa
 
 # bootstrap the flux
-flux bootstrap github --owner=guillaume-x --repository=fluxcd --branch=main --path=clusters/k3s-azn01 --private-key-file=~/.ssh/id_rsa_fluxcd_k3s-azn01 --personal
+flux bootstrap github  --owner=guillaume-x --repository=fluxcd --branch=main \ 
+  --path=clusters/k3s-azn01 --private-key-file=~/.ssh/id_rsa_fluxcd_k3s-azn01 \
+  --personal
 ```
 
 kustomization.yaml
